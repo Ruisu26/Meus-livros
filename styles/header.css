@@ -1,0 +1,36 @@
+.cabecalho {
+    padding: 0% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black);
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 2em; /* Ajuste o espaço entre os itens conforme necessário */
+    flex: 1; /* Faz com que o menu ocupe o espaço restante */
+    justify-content: center; /* Centraliza os itens do menu */
+}
+
+.cabecalho_menu-link {
+    font-size: 1.5rem; /* Corrigido o tamanho da fonte */
+    color: var(--dark-grey);
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho_menu-link:hover {
+    color: var(--darker-grey);
+}
+
+.pesquisa {
+    text-align: right;
+}
+
+.pesquisa_barra {
+    padding: 1em;
+    width: 200%;
+}

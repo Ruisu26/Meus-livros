@@ -1,0 +1,16 @@
+@import url(/styles/header.css);
+@import url(/styles/main.css);
+@import url(/styles/footer.css);
+
+:root {
+    --dark-grey: #A9A9A9;
+    --darker-grey: #5b5b5b;
+    --dark-blue: #00008B;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--dark-grey);
+    color: var(--black);
+}
